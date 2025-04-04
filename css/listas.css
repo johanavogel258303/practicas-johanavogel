@@ -1,0 +1,54 @@
+/*DOCUMENTO CSS*/
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body { font-family: "DM Sans", sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    background-color: #ffffff;}
+
+h1 { text-align: center;
+    background-color:  #f687b7;
+    color:beige;
+    padding: 16px 0; 
+    font-weight: 500;
+    margin-bottom: 16px;}
+
+h2 { padding: 8px 16px; 
+    color: #f687b7;
+    font-weight: 500;
+    margin: 16px 0;}
+
+.cabecera { background-color: #e5f7a2;
+    padding: 16px 0px; 
+    margin-bottom: 24px;}
+
+.listas,
+.contenido {padding: 24px 16px; 
+                    width: 70%; 
+                    margin: 0px auto;}
+
+.atencion {color: #ffb5d0; }
+
+.listas ol { border: 4px double  #e5f7a2;
+    padding: 24px; 
+    list-style-position: inside;}
+
+.contenido p {line-height: 140%; 
+    padding: 8px 0px 16px 0px; 
+    color:#000000;}
+
+.pie span {display: block;
+    text-align: center;
+    background-color: #FEEBFF; 
+    font-size: 16px; 
+    padding: 16px 0;}
+
+.listas li {padding: 8px 0;}
+
+@media (max-width: 768px) {
+    .listas, .contenido {
+        width:90%;}
+}
