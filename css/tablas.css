@@ -34,20 +34,11 @@
         margin: 0 auto;}
     
     th, td {padding: 12px 15px;
-         text-align: center;
-         border: 1px solid #ddd;}
+    text-align: center;}
+
     
-    th {background-color:#8a2be2;;
-        color:#fff; ;
-        font-weight: 500; }
-    
-    tr:nth-child(even) {
-                background-color: #ffffff80;}
+    tr:nth-child(even) {background-color: #ffffff80;}
         
-    td:not(:first-child) {font-weight: bold;}
-                
-    td:contains("°") {color: #8a2be2;
-                        font-size: 1.2em;}
         
     .pie {background-color:#8a2be2;;
                 color: #fff;
