@@ -1,0 +1,96 @@
+/*Documento css*/
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body {font-family: 'Arial', 'Helvetica Neue', sans-serif;
+        background: linear-gradient(135deg, #f8bbd0 0%, #fce4ec 100%);
+        color: #5d4037;
+        line-height: 1.7;
+        min-height: 100vh;}
+
+.cabecera {background: linear-gradient(135deg, #f15071 0%, #e91e63 100%);
+            padding: 25px 0;
+            position: relative;}
+
+.cabecera::after {content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 4px;
+                background: rgba(255, 255, 255, 0.5);}
+
+h1 {text-align: center;
+    color: white;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    font-size: 3rem;
+    position: relative;
+    padding-bottom: 10px;}
+
+h1::after {position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 100px;
+            height: 3px;
+            background: white;
+            border-radius: 3px;}
+
+
+.listas, .contenido {padding: 30px;
+                    width: 80%;
+                    max-width: 900px;
+                    margin: 30px auto;
+                    background: white;
+                    border-radius: 15px;}
+
+h2 {color: #e91e63;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f8bbd0;}
+
+.listas ol {list-style-type: none;
+            counter-reset: item;}
+
+.listas ol li {counter-increment: item;
+                margin-bottom: 15px;
+                position: relative;
+                padding-left: 40px;}
+
+
+.listas ol li a {color: #000000;
+                text-decoration: none;
+                font-weight: 500;
+                display: block;
+                padding: 5px 0;}
+   
+.contenido h2 { color: #e91e63;
+                font-size: 1.6rem;
+                margin-top: 10px;}
+
+.contenido p {margin-bottom: 20px;
+                font-size: 1.1rem;
+                line-height: 1.8;
+                color: #000000;}
+
+.contenido img {max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+                margin: 20px 0;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                display: block;}
+
+.atencion { background-color: #fff9c4;
+            padding: 15px;
+            border-left: 4px solid #ffd600;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;}
+
+.pie { text-align: center;
+        padding: 20px;
+        background: linear-gradient(135deg, #f15071 0%, #e91e63 100%);
+        color: white;
+        margin-top: 50px;}
+
+

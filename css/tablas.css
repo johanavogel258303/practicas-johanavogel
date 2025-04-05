@@ -1,0 +1,51 @@
+/*DOCUMENTO CSS*/
+
+    * { margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+    
+    body { font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        padding-bottom: 40px;}
+    
+    .cabecera { margin-bottom: 2rem;
+        padding: 1.5rem 0;
+        background-color: #8a2be2;}
+    
+    h1 {font-family: "Quicksand", sans-serif;
+        text-align: center;
+        color: #fff;;
+        font-weight: 600;
+        font-size: 2rem;}
+    
+    .tablas { width: 90%;
+        max-width: 1000px;
+        margin: 0 auto 2rem;
+        padding: 1.5rem;
+        border-radius: 7px;}
+    
+    section.tablas {background-color:#f9c8ef;;}
+    
+    div.tablas {background-color:#d9f2a8;;
+                margin-bottom: 3rem;}
+
+    table {width: 100%;
+        margin: 0 auto;}
+    
+    th, td {padding: 12px 15px;
+    text-align: center;}
+
+    
+    tr:nth-child(even) {background-color: #ffffff80;}
+        
+        
+    .pie {background-color:#8a2be2;;
+                color: #fff;
+                text-align: center;
+                padding: 1.5rem 0;
+                position:relative;
+                bottom: 0;
+                width: 100%;}
+    
+
